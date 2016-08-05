@@ -26,7 +26,7 @@
 </head>
 <body>
 	<h2 align="center">Login functionality implemented using Servlet,
-		JSP and MySQL</h2>
+		JSP and H2DB</h2>
 	<form action="loginReq" method="post">
 		<table align="center">
 			<tr>
