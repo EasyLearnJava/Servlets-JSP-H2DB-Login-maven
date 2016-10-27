@@ -10,7 +10,7 @@ import javax.servlet.ServletContextListener;
 
 import com.easylearnjava.util.DBConnectionUtil;
 
-//Create tables and required data during application start up
+//Create tables and required data during application start up 
 public class AppContextListener implements ServletContextListener{
 
 	private final String CREATE_TABLE_SQL = "CREATE TABLE EMPLOYEE(EMP_ID INT PRIMARY KEY, EMP_NAME VARCHAR(255), EMP_PASSWORD VARCHAR(255));";
